@@ -9,7 +9,7 @@ c = float(input("Coeficiente c: "))
 
 delta = (b * b) - (4 * a * c)
 
-if delta < 0:
+if delta < 0 or a == 0:
 	print("Esta equacao nao possui raizes reais")
 else:
 	x1 = ((-b) + math.sqrt(delta)) / (2 * a)
